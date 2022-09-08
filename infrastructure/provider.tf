@@ -6,7 +6,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "terraform-state-lfs"
-    key = "state/edc/mod1/terraform.tfstate"
+    key    = "state/edc/mod1/terraform.tfstate"
     region = "us-east-2"
   }
 }
