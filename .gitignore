@@ -1,1 +1,4 @@
 *.csv
+.terraform.lock.hcl
+*.tfstate
+*.exe
