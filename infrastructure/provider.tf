@@ -5,7 +5,7 @@ provider "aws" {
 # Centralizar o arquivo de controle de estado do terraform
 terraform {
   backend "s3" {
-    bucket = "terraformterraform-state-lfs"
+    bucket = "terraform-state-lfs"
     key = "state/edc/mod1/terraform.tfstate"
     region = "us-east-2"
   }
